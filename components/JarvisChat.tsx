@@ -111,7 +111,7 @@ export default function JarvisChat() {
           setInputMessage(trimmedTranscript)
           console.log('Final transcript received:', trimmedTranscript)
           
-          // Запускаем таймер н�� секунду молчания
+          // Запускаем таймер на секунду молчания
           if (silenceTimerRef.current) {
             clearTimeout(silenceTimerRef.current)
           }
@@ -137,7 +137,7 @@ export default function JarvisChat() {
         isRecordingRef.current = false
         setIsListening(false)
         
-        // Очищаем таймер при ошибк��
+        // Очищаем таймер при ошибке
         if (silenceTimerRef.current) {
           clearTimeout(silenceTimerRef.current)
         }
@@ -213,7 +213,7 @@ export default function JarvisChat() {
       console.log('Speech Recognition not supported in this browser')
     }
 
-    // Инициализация TTS - использу��м только ru-RU-SvetlanaNeural (настройки голоса идеальные)
+    // Инициализация TTS - используем только ru-RU-SvetlanaNeural (настройки голоса идеальные)
     const initTTS = () => {
       if (typeof window !== 'undefined') {
         setTtsSupported(true)
@@ -318,11 +318,11 @@ export default function JarvisChat() {
     }
   }
 
-  // Озвучивание только полного завер��енного текста
+  // Озвучивание только полного завершенного текста
   const speakCompleteText = async (text: string) => {
     if (!text.trim()) return
 
-    console.log('🎤 Озвучиваем полный текст:', text.length, 'си��волов')
+    console.log('🎤 Озвучиваем полный текст:', text.length, 'символов')
 
     // Останавливаем предыдущее аудио
     if (currentAudioRef.current) {
@@ -388,7 +388,7 @@ export default function JarvisChat() {
     }
 
     setIsSpeaking(false)
-    console.log('🎤 Гото��имся к озвучиванию нового ответа')
+    console.log('🎤 Готовимся к озвучиванию нового ответа')
   }
 
   const speakText = async (text: string) => {
@@ -486,7 +486,7 @@ export default function JarvisChat() {
       // Начинаем новое озвучивание
       startNewSpeech()
 
-      // Обрабатываем п��токовый ответ
+      // Обрабатываем потоковый ответ
       const reader = response.body?.getReader()
       const decoder = new TextDecoder()
       let accumulatedText = ''
@@ -522,7 +522,7 @@ export default function JarvisChat() {
                       : msg
                   ))
 
-                  // Просто накапливаем весь текст для озвучивания в конц��
+                  // Просто накапливаем весь текст для озвучивания в конце
                   fullTextRef.current += content
                 }
               } catch (e) {
@@ -642,7 +642,7 @@ export default function JarvisChat() {
               </button>
             </div>
 
-            {/* Сооб��ения */}
+            {/* Сообщения */}
             <div className="chat-messages">
               {messages.map((message) => (
                 <div

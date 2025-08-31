@@ -3144,7 +3144,7 @@ body {
   animation: speaking-pulse 1.5s ease-in-out infinite;
 }
 
-/* Анима��ия для индикатора говорения */
+/* Анимация для индикатора говорения */
 @keyframes speaking-pulse {
   0%, 100% {
     opacity: 0.6;
@@ -3432,7 +3432,7 @@ body {
   stroke-width: 2;
 }
 
-/* Пуль��ация микрофона при записи */
+/* Пульсация микрофона при записи */
 .mic-pulse {
   position: absolute;
   top: -2px;
