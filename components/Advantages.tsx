@@ -37,7 +37,7 @@ const advantages = [
   {
     icon: Shield,
     title: "Корпоративная безопасность",
-    description: "Безопасность банковского уровня с SSL шифрованием, соответствие GDPR и продвинутая защита от мошенничества для вашего спокойствия.",
+    description: "Безопасность банковского уровня с SSL шифрованием, соответстви�� GDPR и продвинутая защита от мошенничества для вашего спокойствия.",
     color: "from-red-500 to-rose-500"
   }
 ]
@@ -75,7 +75,7 @@ export default function Advantages() {
             Почему выбирают <span className="gradient-text">JARVIS</span>
           </h2>
           <p className="advantages-subtitle">
-            Мощные ИИ-решения, которые трансформируют ваш интернет-бизнес
+            Мощные И��-решения, которые трансформируют ваш интернет-бизнес
           </p>
         </div>
 
@@ -101,18 +101,6 @@ export default function Advantages() {
           })}
         </div>
 
-        <div className="advantages-cta">
-          <button className="primary-button">
-            <span>Начать сегодня</span>
-            <svg className="button-arrow" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-            </svg>
-          </button>
-          <div className="cta-text">
-            <span className="cta-label">Присоединяйтесь к 500+ успешным компаниям</span>
-            <span className="cta-subtext">Начните свою ИИ-трансформацию сегодня</span>
-          </div>
-        </div>
       </div>
     </section>
   )
