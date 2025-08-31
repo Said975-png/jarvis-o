@@ -523,7 +523,7 @@ export default function Hero() {
                     setIsRegisterModalOpen(true);
                   }}
                 >
-                  Зарегистрирова��ься
+                  Зарегистрироваться
                 </button>
               </div>
             </form>
@@ -556,7 +556,7 @@ export default function Hero() {
 
               // Basic validation
               if (password !== confirmPassword) {
-                alert('��ароли не совпадают');
+                alert('Пароли не совпадают');
                 return;
               }
 
@@ -722,7 +722,7 @@ export default function Hero() {
                           <div className="empty-orders">
                             <Package className="empty-icon" />
                             <p className="empty-text">У вас пока нет заказов</p>
-                            <p className="empty-subtext">Выберите тариф и оформите ваш первый заказ</p>
+                            <p className="empty-subtext">Выберите тариф и оформите ваш первы�� заказ</p>
                           </div>
                         )
                       }

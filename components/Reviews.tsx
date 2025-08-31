@@ -15,13 +15,13 @@ const reviews = [
     id: 2,
     rating: 5,
     text: "Создала сайт с Jarvis Intercoma для своего магазина одежды. Работать стало легче: бот помогает клиентам выбирать стиль, отвечает на вопросы, а я только получаю заказы. Очень довольна!",
-    author: "Алимова М.",
+    author: "Алимо��а М.",
     location: "Чебоксары, Freelance"
   },
   {
     id: 3,
     rating: 5,
-    text: "Сделала сайт для своего бутика с Jarvis. Удобно и быстро, клиенты довольны. Бот помо��ает им найти нужные товары, даже ночью.",
+    text: "Сделала сайт для своего бутика с Jarvis. Удобно и быстро, клиенты довольны. Бот помогает им найти нужные товары, даже ночью.",
     author: "Романова И.",
     location: "Уфа, Freelance"
   },
@@ -85,7 +85,7 @@ const reviews = [
     id: 12,
     rating: 5,
     text: "Создала магазин косметики с Jarvis. Бот идеально консультирует клиентов по уходу за кожей, подбирает продукты по типу кожи. Продажи выросли в 4 раза!",
-    author: "Елена К.",
+    author: "Ел��на К.",
     location: "Москва, Freelance"
   }
 ]
@@ -138,7 +138,7 @@ export default function Reviews() {
     <section className="reviews-section">
       <div className="reviews-container">
         <div className="reviews-header">
-          <h2 className="reviews-title">Наши отзы��ы</h2>
+          <h2 className="reviews-title">Наши отзывы</h2>
           <p className="reviews-subtitle">
             Истории успеха наших клиентов со всего мира
           </p>
