@@ -675,9 +675,8 @@ body {
     min-height: 100vh;
   }
 
-  .hero-nav {
-    padding: 1.5rem 0;
-    margin-bottom: 1rem;
+  .nav-container {
+    padding: 1.5rem 1.5rem;
   }
 
   .desktop-nav {
@@ -787,6 +786,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .nav-container {
+    padding: 1.25rem 1rem;
+  }
+
   .hero-container {
     padding: 0 1rem;
     overflow: visible;
@@ -864,6 +867,10 @@ body {
 
 /* Additional responsive improvements for small screens */
 @media (max-width: 360px) {
+  .nav-container {
+    padding: 1rem 0.75rem;
+  }
+
   .hero-container {
     padding: 0 0.75rem;
   }
