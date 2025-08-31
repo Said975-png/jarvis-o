@@ -874,6 +874,7 @@ body {
 
   .hero-container {
     padding: 0 0.75rem;
+    padding-top: 100px;
   }
 
   .hero-nav {
