@@ -792,6 +792,7 @@ body {
 
   .hero-container {
     padding: 0 1rem;
+    padding-top: 110px;
     overflow: visible;
   }
 
