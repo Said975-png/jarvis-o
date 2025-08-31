@@ -91,6 +91,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+  padding-top: 140px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,15 +101,24 @@ body {
 
 /* Navigation */
 .hero-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.8);
+  pointer-events: auto;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  position: relative;
-  z-index: 100;
-  pointer-events: auto;
 }
 
 .nav-logo .logo-text {
@@ -665,9 +675,8 @@ body {
     min-height: 100vh;
   }
 
-  .hero-nav {
-    padding: 1.5rem 0;
-    margin-bottom: 1rem;
+  .nav-container {
+    padding: 1.5rem 1.5rem;
   }
 
   .desktop-nav {
@@ -777,15 +786,16 @@ body {
 }
 
 @media (max-width: 480px) {
+  .nav-container {
+    padding: 1.25rem 1rem;
+  }
+
   .hero-container {
     padding: 0 1rem;
+    padding-top: 110px;
     overflow: visible;
   }
 
-  .hero-nav {
-    padding: 1.25rem 0;
-    margin-bottom: 0.5rem;
-  }
 
   .nav-logo .logo-text {
     font-size: 1.3rem;
@@ -854,13 +864,15 @@ body {
 
 /* Additional responsive improvements for small screens */
 @media (max-width: 360px) {
-  .hero-container {
-    padding: 0 0.75rem;
+  .nav-container {
+    padding: 1rem 0.75rem;
   }
 
-  .hero-nav {
-    padding: 1rem 0;
+  .hero-container {
+    padding: 0 0.75rem;
+    padding-top: 100px;
   }
+
 
   .nav-logo .logo-text {
     font-size: 1.2rem;
@@ -3132,7 +3144,7 @@ body {
   animation: speaking-pulse 1.5s ease-in-out infinite;
 }
 
-/* Анима��ия для индикатора говорения */
+/* Анимация для индикатора говорения */
 @keyframes speaking-pulse {
   0%, 100% {
     opacity: 0.6;
@@ -3420,7 +3432,7 @@ body {
   stroke-width: 2;
 }
 
-/* Пуль��ация микрофона при записи */
+/* Пульсация микрофона при записи */
 .mic-pulse {
   position: absolute;
   top: -2px;
