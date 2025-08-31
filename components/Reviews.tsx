@@ -21,7 +21,7 @@ const reviews = [
   {
     id: 3,
     rating: 5,
-    text: "Сделала сайт для своего бутика с Jarvis. Удобно и быстро, клиенты довольны. Бот помогает им найти нужные товары, даже ночью.",
+    text: "Сделала сайт для своего бутика с Jarvis. Удобно и быстро, клиенты довольны. Бот помо��ает им найти нужные товары, даже ночью.",
     author: "Романова И.",
     location: "Уфа, Freelance"
   },
@@ -42,7 +42,7 @@ const reviews = [
   {
     id: 6,
     rating: 5,
-    text: "Мой магазин ювелирных ��зделий стал более удобным благодаря Jarvis. Бот помогает клиентам выбрать подходящие украшения и отвечает на все вопросы.",
+    text: "Мой магазин ювелирных изделий стал более удобным благодаря Jarvis. Бот помогает клиентам выбрать подходящие украшения и отвечает на все вопросы.",
     author: "Васильева О.",
     location: "Набережные Челны, Freelance"
   },
@@ -131,14 +131,14 @@ export default function Reviews() {
     }
   }, [isMounted])
 
-  // Дублир��ем отзывы для бесконечной прокрутки
+  // Дублируем отзывы для бесконечной прокрутки
   const duplicatedReviews = [...reviews, ...reviews]
 
   return (
     <section className="reviews-section">
       <div className="reviews-container">
         <div className="reviews-header">
-          <h2 className="reviews-title">Наши отзывы</h2>
+          <h2 className="reviews-title">Наши отзы��ы</h2>
           <p className="reviews-subtitle">
             Истории успеха наших клиентов со всего мира
           </p>

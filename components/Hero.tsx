@@ -319,7 +319,7 @@ export default function Hero() {
                 <div className="step-content">
                   <h3 className="step-title">Согласование и предоплата</h3>
                   <p className="step-description">
-                    Если макет и технич��ское решение вас устраивает, мы заключаем договор и получаем предоплату 50 процентов от стоимости проекта. Это позволяет нам приступить к разработке с полной уверенностью.
+                    Если макет и техническое решение вас устраивает, мы заключаем договор и получаем предоплату 50 процентов от стоимости проекта. Это позволяет нам приступить к разработке с полной уверенностью.
                   </p>
                 </div>
               </div>
@@ -397,7 +397,7 @@ export default function Hero() {
                 <div className="feature-content">
                   <h3 className="feature-title">Общение как с живым консультантом</h3>
                   <p className="feature-description">
-                    Наш ИИ общается с клиентами естественно и дружелюбно, ��твечает на любые вопросы о товарах, помогает с выбором размера, цвета, характеристик. Клиенты даже не замечают, что говорят с роботом - настолько живое и понятное общение.
+                    Наш ИИ общается с клиентами естественно и дружелюбно, отвечает на любые вопросы о товарах, помогает с выбором размера, цвета, характеристик. Клиенты даже не замечают, что говорят с роботом - настолько живое и понятное общение.
                   </p>
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function Hero() {
               <button
                 className="auth-modal-close"
                 onClick={() => setIsLoginModalOpen(false)}
-                aria-label="Закр��ть"
+                aria-label="Закрыть"
               >
                 <X className="close-icon" />
               </button>
@@ -523,7 +523,7 @@ export default function Hero() {
                     setIsRegisterModalOpen(true);
                   }}
                 >
-                  Зарегистрироваться
+                  Зарегистрирова��ься
                 </button>
               </div>
             </form>
@@ -556,7 +556,7 @@ export default function Hero() {
 
               // Basic validation
               if (password !== confirmPassword) {
-                alert('Пароли не совпадают');
+                alert('��ароли не совпадают');
                 return;
               }
 
