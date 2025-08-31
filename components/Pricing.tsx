@@ -167,31 +167,6 @@ export default function Pricing() {
           ))}
         </div>
 
-        <div className="pricing-footer">
-          <div className="support-info">
-            <div className="support-item">
-              <Mail className="support-icon" />
-              <div className="support-text">
-                <span className="support-label">Email поддержка</span>
-                <span className="support-detail">support@jarvis.uz</span>
-              </div>
-            </div>
-            <div className="support-item">
-              <Headphones className="support-icon" />
-              <div className="support-text">
-                <span className="support-label">Техническая поддержка</span>
-                <span className="support-detail">Помощь в настройке</span>
-              </div>
-            </div>
-            <div className="support-item">
-              <Clock className="support-icon" />
-              <div className="support-text">
-                <span className="support-label">Время ответа</span>
-                <span className="support-detail">До 2 часов</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )
