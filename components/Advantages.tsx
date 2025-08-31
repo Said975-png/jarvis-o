@@ -18,7 +18,7 @@ const advantages = [
   },
   {
     icon: Target,
-    title: "Точное ��аргетирование",
+    title: "Точное таргетирование",
     description: "Умная система рекомендаций, которая увеличивает конверсию до 40% благодаря интеллектуальным предложениям товаров.",
     color: "from-purple-500 to-pink-500"
   },
@@ -75,7 +75,7 @@ export default function Advantages() {
             Почему выбирают <span className="gradient-text">JARVIS</span>
           </h2>
           <p className="advantages-subtitle">
-            Мощные ИИ-решения, которые трансформируют ваш интер��ет-бизнес
+            Мощные ИИ-решения, которые трансформируют ваш интернет-бизнес
           </p>
         </div>
 
