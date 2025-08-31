@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
-import { Check, Star, Mail, Headphones, Clock } from 'lucide-react'
+import { Check, Star } from 'lucide-react'
 import { useCart } from './CartContext'
 
 const pricingPlans = [
@@ -11,7 +11,7 @@ const pricingPlans = [
     subtitle: 'Стартовое решение',
     price: '2 500 000',
     currency: 'сум',
-    description: 'Идеально для небольших проектов и стартапов',
+    description: 'Идеально для небо��ьших проектов и стартапов',
     features: [
       'До 5 страниц сайта',
       'Современный дизайн',
