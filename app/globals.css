@@ -91,6 +91,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+  padding-top: 140px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,19 +101,24 @@ body {
 
 /* Navigation */
 .hero-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
-  pointer-events: auto;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(0, 0, 0, 0.8);
+  pointer-events: auto;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-logo .logo-text {
