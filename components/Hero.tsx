@@ -112,7 +112,8 @@ export default function Hero() {
         <div className="hero-container">
           {/* Navigation */}
           <nav className="hero-nav">
-            <div className="nav-logo">
+            <div className="nav-container">
+              <div className="nav-logo">
               <span className="logo-text">JARVIS</span>
             </div>
 
@@ -231,6 +232,7 @@ export default function Hero() {
                   </>
                 )}
               </div>
+            </div>
             </div>
           </nav>
 
@@ -411,7 +413,7 @@ export default function Hero() {
 
               <div className="feature-item">
                 <div className="feature-content">
-                  <h3 className="feature-title">Увеличение продаж в 3 раза</h3>
+                  <h3 className="feature-title">��величение продаж в 3 раза</h3>
                   <p className="feature-description">
                     Магазины с ДЖАРВИС показывают фантастические результаты. Продажи вырастают в среднем на 300 процентов. Клиенты покупают больше, возвращаются чаще и рекомендуют магазин друзьям. Средний чек увеличивается в 2 или 4 раза.
                   </p>
